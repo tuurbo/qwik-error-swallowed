@@ -22,7 +22,8 @@ export default component$(() => {
     <>
       <div style="font-size: 20px;">Qwik client side errors swallowed</div>
       <div style="margin: 15px 0 0;">
-        Run app in preview or production mode.
+        Run app in preview <code>(pnpm run preview)</code> or production mode{" "}
+        <code>(pnpm run prod)</code>.
       </div>
       <div style="margin: 15px 0 35px;">Click the buttons below.</div>
       <div style="padding: 20px; display: flex; gap: 30px; border: 2px solid red; margin-bottom: 35px;">
